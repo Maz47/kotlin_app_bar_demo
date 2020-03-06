@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">kotlin_app_bar_demo</string>
     <string name="button_default_appbar">Default Appbar</string>
+    <string name="button_back_default_appbar">Back</string>
+    <string name="button_subtitle_appbar">Appbar with Subtitle</string>
+    <string name="button_back_subtitle_appbar">Back</string>
+    <string name="subtitle_appbar_subtitle">This is the subtitle of the Appbar</string>
+    <string name="subtitle_appbar_title">Appbar with Subtitle</string>
 </resources>

@@ -12,12 +12,21 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         initDefaultAppBar()
+        initSubtitleAppBar()
     }
 
     private fun initDefaultAppBar() {
         var button: Button = findViewById(R.id.button_default_appbar)
         button.setOnClickListener {
             var intent = Intent(this@MainActivity, DefaultAppBarActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun initSubtitleAppBar() {
+        var button: Button = findViewById(R.id.button_subtitle_appbar)
+        button.setOnClickListener {
+            var intent = Intent(this@MainActivity, SubtitleAppBarActivity::class.java)
             startActivity(intent)
         }
     }
